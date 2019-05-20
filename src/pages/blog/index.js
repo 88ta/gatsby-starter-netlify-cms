@@ -23,7 +23,7 @@ export default class BlogIndexPage extends React.Component {
             Instagram Blog
           </h1>
         </div>
-        <section className="section">
+        <section className="section" style={{ padding: `${3}rem ${8}px` }}>
           <div className="container">
             <div className="content">
               <BlogRoll />
