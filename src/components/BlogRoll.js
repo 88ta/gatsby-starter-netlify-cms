@@ -9,13 +9,16 @@ const PostCell = styled.article``
 const TitleLink = styled(Link)`
   color: #080808;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   line-height: 18px;
   overflow: hidden;
   margin-top: 8px;
+  :hover {
+    text-decoration: underline;
+  }
 `
 
 const PublishDate = styled.p`
@@ -35,6 +38,7 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <PostCell>
+                <div style={{ height: `${194}px`}}>
                   {post.frontmatter.featuredimage ? (
                     <PreviewCompatibleImage
                       imageInfo={{
@@ -45,14 +49,15 @@ class BlogRoll extends React.Component {
                       }}
                     />
                   ) : null}
-                  <p className="post-meta">
-                    <PublishDate>
-                      {post.frontmatter.date}
-                    </PublishDate>
-                    <TitleLink to={post.fields.slug}>
-                      {post.frontmatter.title}
-                    </TitleLink>
-                  </p>
+                </div>
+                <p className="post-meta">
+                  <PublishDate>
+                    {post.frontmatter.date}
+                  </PublishDate>
+                  <TitleLink to={post.fields.slug}>
+                    {post.frontmatter.title}
+                  </TitleLink>
+                </p>
               </PostCell>
             </div>
           ))}
