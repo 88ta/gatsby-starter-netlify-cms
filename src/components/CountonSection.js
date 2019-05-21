@@ -20,7 +20,7 @@ const H3 = styled.h3`
   margin-bottom: 40px;
 `
 
-const CountOn = () => (
+const CountonSection = () => (
 	<Wrapper id="countOn">
 		<Container>
 			<H3>Instagramの戦略立案・運用・振り返り、すべてFinTにお任せください！</H3>
@@ -29,4 +29,4 @@ const CountOn = () => (
 	</Wrapper>
 )
 
-export default CountOn
+export default CountonSection
