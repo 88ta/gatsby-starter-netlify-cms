@@ -39,7 +39,7 @@ const Description = styled.p`
   color: #5F4B45;
 `
 
-const StrengthComponent = () => (
+const StrengthSection = () => (
 	<Wrapper id="strength">
 		<h2>FinTの強み</h2>
 		<Content>
@@ -69,4 +69,4 @@ const StrengthComponent = () => (
 	</Wrapper>
 )
 
-export default StrengthComponent
+export default StrengthSection
