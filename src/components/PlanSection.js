@@ -86,10 +86,10 @@ const PlanSection = () => (
 			<H2>料金プラン</H2>
 			<Plans>
 				<Plan id="cP1">
-					<PlanTitle>制作/運用プラン</PlanTitle>
+					<PlanTitle style={{ backgroundColor: '#C4DD6E' }}>制作/運用プラン</PlanTitle>
 					<MonthlyAmount><span>50</span>万円~/月</MonthlyAmount>
 					<Tax>*税抜価格</Tax>
-					<Description>商品などの撮影を弊社で行い、写真制作から投稿や企画、レポートすべて運用代行いたします。</Description>
+					<Description style={{ backgroundColor: '#C4DD6E' }}>商品などの撮影を弊社で行い、写真制作から投稿や企画、レポートすべて運用代行いたします。</Description>
 					<Ul>
 						<Li>初期体制構築</Li>
 						<Li>運用初期プラン立案</Li>
@@ -101,10 +101,10 @@ const PlanSection = () => (
 					</Ul>
 				</Plan>
 				<Plan id="cP2">
-					<PlanTitle>画像選出/運用プラン</PlanTitle>
+					<PlanTitle style={{ backgroundColor: '#FDDC41' }}>画像選出/運用プラン</PlanTitle>
 					<MonthlyAmount><span>30</span>万円~/月</MonthlyAmount>
 					<Tax>*税抜価格</Tax>
-					<Description>Instagram上の投稿写真から選定し、利用許諾を取得した上で投稿や企画、レポートまでを運用代行いたします。</Description>
+					<Description style={{ backgroundColor: '#FDDC41' }}>Instagram上の投稿写真から選定し、利用許諾を取得した上で投稿や企画、レポートまでを運用代行いたします。</Description>
 					<Ul>
 						<Li>初期体制構築</Li>
 						<Li>運用初期プラン立案</Li>
@@ -116,10 +116,10 @@ const PlanSection = () => (
 					</Ul>
 				</Plan>
 				<Plan id="cP3">
-					<PlanTitle>基本運用プラン</PlanTitle>
+					<PlanTitle style={{ backgroundColor: '#E390D0' }}>基本運用プラン</PlanTitle>
 					<MonthlyAmount><span>20</span>万円~/月</MonthlyAmount>
 					<Tax>*税抜価格</Tax>
-					<Description>投稿する素材をご用意していただき、投稿文章/ハッシュタグ設計から投稿や企画、レポートまでを運用代行いたします。</Description>
+					<Description style={{ backgroundColor: '#E390D0' }}>投稿する素材をご用意していただき、投稿文章/ハッシュタグ設計から投稿や企画、レポートまでを運用代行いたします。</Description>
 					<Ul>
 						<Li>初期体制構築</Li>
 						<Li>運用初期プラン立案</Li>
