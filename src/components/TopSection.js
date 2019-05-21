@@ -20,7 +20,7 @@ const H3 = styled.h3`
 	color: #5F4B45;
 `
 
-const TopComponent = () => (
+const TopSection = () => (
 	<Wrapper id="top">
 		<Container>
 			<h1>Instagramの運用をまるっとお任せ。</h1>
@@ -30,4 +30,4 @@ const TopComponent = () => (
 	</Wrapper>
 )
 
-export default TopComponent
+export default TopSection
