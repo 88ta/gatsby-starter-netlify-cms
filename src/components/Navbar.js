@@ -1,6 +1,20 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
+import styled from 'styled-components'
+
+const Header = styled.header`
+	background-color: #69A6B8;
+	padding: 16px 16px 12px;
+`
+
+const Logo = styled.img`
+		height: 24px;
+`
+
+const StyledLink = styled.a`
+	line-height: 24px;
+	margin-right: 14px;
+`
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -33,16 +47,13 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
+      <Header
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <div style={{ justifyContent: 'space-between' }}>
+          <Logo src="img/fint.svg" alt="Fint-logo" />
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <h1>FinT</h1>
-            </Link>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -54,42 +65,15 @@ const Navbar = class extends React.Component {
               <span />
             </div>
           </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
+          <div>
+			     	<StyledLink href="#trouble">お悩み</StyledLink>
+			     	<StyledLink href="#strength">FinTの強み</StyledLink>
+			     	<StyledLink href="#case">導入事例</StyledLink>
+			     	<StyledLink href="#plan">料金プラン</StyledLink>
+			     	<StyledLink href="#flow">ご利用の流れ</StyledLink>>
           </div>
         </div>
-      </nav>
+      </Header>
     )
   }
 }
