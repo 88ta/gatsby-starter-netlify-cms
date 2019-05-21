@@ -38,7 +38,7 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <PostCell>
-                <div style={{ height: `${194}px`, backgroundColor: '#BDBDBD', overflow: 'hidden' }}>
+                <div style={{ height: `${194}px`, backgroundColor: 'rgb(242, 242, 242)', overflow: 'hidden' }}>
                   {post.frontmatter.featuredimage ? (
                     <PreviewCompatibleImage
                       imageInfo={{
