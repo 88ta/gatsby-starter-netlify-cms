@@ -38,7 +38,7 @@ const Text = styled.p`
   color: #5F4B45;
 `
 
-const TroubleComponent = () => (
+const TroubleSection = () => (
 	<Wrapper id="trouble">
 		<h2>こんなお悩み、ありませんか？</h2>
 		<Inner>
@@ -58,4 +58,4 @@ const TroubleComponent = () => (
 	</Wrapper>
 )
 
-export default TroubleComponent
+export default TroubleSection
