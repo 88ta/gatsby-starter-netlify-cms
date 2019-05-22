@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Img from 'gatsby-image'
+import { Link } from 'gatsby'
 
 const Header = styled.header`
 	background-color: #69A6B8;
@@ -69,7 +69,7 @@ const Navbar = class extends React.Component {
 			     	<StyledLink href="#case">導入事例</StyledLink>
 			     	<StyledLink href="#plan">料金プラン</StyledLink>
 			     	<StyledLink href="#flow">ご利用の流れ</StyledLink>
-            <StyledLink to="/blog">ブログ</StyledLink>
+            <Link to="/blog" style={{ lineHeight: 24 + 'px', marginRight: 14 + 'px'}}>ブログ</Link>
           </div>
         </div>
       </Header>
