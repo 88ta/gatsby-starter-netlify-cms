@@ -19,6 +19,20 @@ const Container = styled.div`
   width: 640px;
 `
 
+const Top = styled.div `
+  height: 480px;
+  margin: auto;
+  background: no-repeat;
+  background-size: cover;
+  background-image: url('img/fv.png');
+`
+const TopContainer = styled.div `
+  height: 352px;
+  margin: auto;
+  padding: 64px 0;
+  width: 900px;
+`
+
 export const BlogPostTemplate = ({
   content,
   contentComponent,
@@ -75,6 +89,11 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
+      <Top>
+        <TopContainer>
+          <h1>Instagram Blog</h1>
+        </TopContainer>
+      </Top>
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
