@@ -10,6 +10,11 @@ const H2 = styled.h2`
   line-height: 28px !important;
   text-align: left !important;
   color: #000 !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 2 !important;
+  overflow: hidden !important;
+
   &:hover {
     text-decoration: underline !important;
   }
