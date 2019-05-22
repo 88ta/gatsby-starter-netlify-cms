@@ -8,10 +8,10 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
 const H1 = styled.h1`
-  font-size: 24px;
-  line-height: 32px;
-  text-align: left;
-  color: #333;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  text-align: left !important;
+  color: #333 !important;
 `
 
 const Container = styled.div`
