@@ -54,7 +54,7 @@ const Description = styled.div`
 const CaseSection = () => (
 	<Wrapper id="case">
 		<h2>導入事例</h2>
-		<div style={{ display: 'flex' }}>
+		<div style={{ display: 'flex', marginTop: `${40}px`, justifyContent: 'space-between' }}>
 			<Case>
 				<Img src="/img/dC1.png"/>
 				<Media>ウエディング情報発信メディア</Media>

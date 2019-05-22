@@ -13,11 +13,10 @@ const H2 = styled.h2`
 
 const Step = styled.div`
   display: flex;
-  width: 256px;
-  font-weight: 700;
-  line-height: 32px;
-  text-align: left;
-  color: rgb(105, 166, 184);
+  padding: 16px 24px;
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 5px;
 `
 
 const H3 = styled.h3 `

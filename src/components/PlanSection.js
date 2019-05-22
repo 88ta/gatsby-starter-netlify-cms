@@ -57,6 +57,7 @@ const Description = styled.p`
   border-radius: 5px;
   font-size: 16px;
   line-height: 24px;
+  color: #000000;
 `
 
 const Ul = styled.ul`
@@ -67,6 +68,7 @@ const Ul = styled.ul`
 const Li = styled.li`
   font-size: 14px;
   margin-top: 16px;
+  color: #000000;
   &:before {
     content: "";
     display: inline-block;
