@@ -1,6 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import styled, { Reset } from 'styled-reset'
+import styled from 'styled-reset'
+import { Reset } from 'styled-reset'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './all.sass'
