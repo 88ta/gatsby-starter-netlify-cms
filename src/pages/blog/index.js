@@ -1,35 +1,32 @@
 import React from 'react'
+import styled from 'styled-components'
 
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
 
+const Top = styled.div`
+  height: 480px;
+  margin: auto;
+  background: no-repeat;
+  background-size: cover;
+  background-image: url('img/fv.png');
+`
+const Container = styled.div`
+  height: 352px;
+  margin: auto;
+  padding: 64px 0;
+  width: 900px;
+`
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            backgroundImage: `url('/img/fv.png')`,
-          }}
-        >
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              backgroundColor: 'transparent',
-              padding: '1rem',
-            }}
-          >
-            Instagram Blog
-          </h1>
-        </div>
-        <section className="section" style={{ padding: `${3}rem ${8}px` }}>
-          <div className="container">
-            <div className="content">
-              <BlogRoll />
-            </div>
-          </div>
-        </section>
+        <Top>
+          <Container>
+            <h1>Instagram Blog</h1>
+          </Container>
+        </Top>
+        <BlogRoll />
       </Layout>
     )
   }
