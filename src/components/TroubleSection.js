@@ -43,14 +43,14 @@ const TroubleSection = () => (
 		<h2>こんなお悩み、ありませんか？</h2>
 		<Inner>
 			<Cell id="cT1">
-				<Img src="img/cT1.png" />
+				<Img src="/img/cT1.png" />
 				<Text>"アカウント運用をしているが、フォロワー数が伸びない"</Text>
 			</Cell>
-			<Cell id="cT2">
+			<Cell id="/cT2">
 				<Img src="img/cT2.png" />
 				<Text>"効果的な運用方法がわからない"</Text>
 			</Cell>
-			<Cell id="cT3">
+			<Cell id="/cT3">
 				<Img src="img/cT3.png" />
 				<Text>"Instagramをビジネスに活用したいが、リソースが足りない"</Text>
 			</Cell>

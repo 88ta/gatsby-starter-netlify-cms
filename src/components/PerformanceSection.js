@@ -34,11 +34,11 @@ const PerformanceSection = () => (
 	<Wrapper id="performance">
 		<h2>弊社アカウント実績</h2>
 		<Content>
-			<Per src="img/per.png"/>
+			<Per src="/img/per.png"/>
 			<div>
 				<Sucle>Sucle</Sucle>
 				<Description>弊社が運営する女性向けライフスタイルメディア『Sucle』を成長させる際に培ったノウハウをフル活用します。</Description>
-				<img src="img/sucleG.png" style={{ width: `${300}px` }}/>
+				<img src="/img/sucleG.png" style={{ width: `${300}px` }}/>
 			</div>
 		</Content>
 	</Wrapper>

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 
 const Header = styled.header`
 	background-color: #69A6B8;
@@ -51,26 +51,24 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div style={{ justifyContent: 'space-between' }}>
-          <Logo src="img/fint.svg" alt="Fint-logo" />
-          <div className="navbar-brand">
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
+        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <Img src="/img/fint.svg" alt="Fint-logo" />
+          {/* Hamburger menu */}
+          <div
+            className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+            data-target="navMenu"
+            onClick={() => this.toggleHamburger()}
+          >
+            <span />
+            <span />
+            <span />
           </div>
           <div>
 			     	<StyledLink href="#trouble">お悩み</StyledLink>
 			     	<StyledLink href="#strength">FinTの強み</StyledLink>
 			     	<StyledLink href="#case">導入事例</StyledLink>
 			     	<StyledLink href="#plan">料金プラン</StyledLink>
-			     	<StyledLink href="#flow">ご利用の流れ</StyledLink>>
+			     	<StyledLink href="#flow">ご利用の流れ</StyledLink>
           </div>
         </div>
       </Header>

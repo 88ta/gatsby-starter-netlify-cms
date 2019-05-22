@@ -56,7 +56,7 @@ const CaseSection = () => (
 		<h2>導入事例</h2>
 		<div style={{ display: 'flex' }}>
 			<Case>
-				<Img src="img/dC1.png"/>
+				<Img src="/img/dC1.png"/>
 				<Media>ウエディング情報発信メディア</Media>
 				<CaseTitle>2ヶ月の運用で5000フォロワー達成</CaseTitle>
 				<Account>アカウント名：Choole</Account>
@@ -64,7 +64,7 @@ const CaseSection = () => (
 				<Description>ヘア、ネイル、メイクなどの多種カテゴリーで情報を発信。フォロワー数の増加に従い、加工方法を変更し雰囲気の異なる写真を掲載。伸びる投稿、伸びない投稿の違いをつぶさに研究し、フォロワー数の増加につなげた。</Description>
 			</Case>
 			<Case>
-				<Img src="img/dC2.png"/>
+				<Img src="/img/dC2.png"/>
 				<Media>お料理情報発信メディア</Media>
 				<CaseTitle>2ヶ月の運用で1万フォロワー達成</CaseTitle>
 				<Account>アカウント名：てづくりおべんと365</Account>
@@ -72,7 +72,7 @@ const CaseSection = () => (
 				<Description>お弁当の具材や配置、撮影・加工方法を工夫しながら、季節感や流行を踏まえた投稿、リポストによる運用を実施。統一した世界観の構築がフォロワー数増加につながった。</Description>
 			</Case>
 			<Case>
-				<Img src="img/dC3.png"/>
+				<Img src="/img/dC3.png"/>
 				<Media>節約情報発信メディア</Media>
 				<CaseTitle>2ヶ月の運用で10万フォロワー達成</CaseTitle>
 				<Account>アカウント名：わたしの節約</Account>

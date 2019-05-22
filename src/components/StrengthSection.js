@@ -43,7 +43,7 @@ const StrengthSection = () => (
 	<Wrapper id="strength">
 		<h2>FinTの強み</h2>
 		<Content>
-			<Img src="img/cS1.png" />
+			<Img src="/img/cS1.png" />
 			<Text>
 				<Number>01</Number>
 				<H3>フォロワー数を増加させるための<br/>ノウハウ・仕組みがある</H3>
@@ -56,10 +56,10 @@ const StrengthSection = () => (
 				<H3>アカウントのファンを増やすための独自メソッド</H3>
 				<Description>フォロワーをあなたのサービスやアカウントのファンに転換させる企画力があります。Instagramならではの機能である「ストーリーズ」を用いて、フォロワーとのコミュニケーションを図り、ファンを増やし、サービスの売上に貢献します。</Description>
 			</Text>
-			<Img src="img/cS2.png" />
+			<Img src="/img/cS2.png" />
 		</Content>
 		<Content id="cS3">
-			<Img src="img/cS3.png" />
+			<Img src="/img/cS3.png" />
 			<Text>
 				<Number>03</Number>
 				<H3>充実した運用体制</H3>

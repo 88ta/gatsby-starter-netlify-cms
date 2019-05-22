@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import { Helmet } from "react-helmet"
-
 import Layout from '../components/Layout'
 import TopSection from '../components/TopSection'
 import TroubleSection from '../components/TroubleSection'
@@ -47,15 +46,18 @@ export const IndexPageTemplate = ({
       <meta content="Sucleの運営会社FinTは、instagramのフォロワー数・認知度・売上の向上を アカウント運用によってサポートします" name="twitter:description"/>
       <meta content="https://fint-instagram.netlify.com/img/ogp.jpg" name="twitter:image"/>
     </Helmet>
-    <TopSection />
-    <TroubleSection />
-    <CountonSection />
-    <StrengthSection />
-    <CaseSection />
-    <PerformanceSection />
-    <IntroSection />
-    <PlanSection />
-    <FlowSection />
+    <Reset />
+    <Base>
+      <TopSection />
+      <TroubleSection />
+      <CountonSection />
+      <StrengthSection />
+      <CaseSection />
+      <PerformanceSection />
+      <IntroSection />
+      <PlanSection />
+      <FlowSection />
+    </Base>
   </React.Fragment>
 )
 
