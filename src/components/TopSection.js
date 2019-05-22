@@ -6,7 +6,7 @@ const Wrapper = styled.div`
 	margin: auto;
   background: no-repeat;
 	background-size: cover;
-	background-image: url('img/fv.png');
+	background-image: url('/img/fv.png');
 `
 
 const Container = styled.div`

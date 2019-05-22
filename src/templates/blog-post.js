@@ -24,7 +24,7 @@ const Top = styled.div `
   margin: auto;
   background: no-repeat;
   background-size: cover;
-  background-image: url('img/fv.png');
+  background-image: url('/img/fv.png');
 `
 const TopContainer = styled.div `
   height: 352px;
