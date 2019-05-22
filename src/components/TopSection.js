@@ -11,6 +11,9 @@ const Wrapper = styled.div`
 
 const Container = styled.div`
 	height: 352px;
+  margin: auto;
+  padding: 64px 0;
+  width: 900px;
 `
 
 const H3 = styled.h3`

@@ -43,7 +43,7 @@ const Arrow = styled.span`
 `
 
 const Button = styled.button`
-  margin: 64px auto;
+  margin: 64px auto !important;
 `
 
 const FlowSection = () => (

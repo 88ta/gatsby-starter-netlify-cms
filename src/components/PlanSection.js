@@ -49,15 +49,14 @@ const MonthlyAmount = styled.p`
 `
 
 const Description = styled.p`
-  width: 200px;
-  height: 120px;
   padding: 16px;
-  margin: auto;
   border: none;
   border-radius: 5px;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+  width: auto;
+  margin: 0 20px;
 `
 
 const Ul = styled.ul`

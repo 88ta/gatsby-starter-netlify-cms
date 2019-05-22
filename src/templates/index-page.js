@@ -46,7 +46,6 @@ export const IndexPageTemplate = ({
       <meta content="Sucleの運営会社FinTは、instagramのフォロワー数・認知度・売上の向上を アカウント運用によってサポートします" name="twitter:description"/>
       <meta content="https://fint-instagram.netlify.com/img/ogp.jpg" name="twitter:image"/>
     </Helmet>
-    <div>{title}</div>
     <TopSection />
     <TroubleSection />
     <CountonSection />
