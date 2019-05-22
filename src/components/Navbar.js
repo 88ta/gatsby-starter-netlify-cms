@@ -52,7 +52,7 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <Img src="/img/fint.svg" alt="Fint-logo" />
+          <Logo src="/img/fint.svg" alt="Fint-logo" />
           {/* Hamburger menu */}
           <div
             className={`navbar-burger burger ${this.state.navBarActiveClass}`}
