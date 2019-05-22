@@ -69,6 +69,7 @@ const Navbar = class extends React.Component {
 			     	<StyledLink href="#case">導入事例</StyledLink>
 			     	<StyledLink href="#plan">料金プラン</StyledLink>
 			     	<StyledLink href="#flow">ご利用の流れ</StyledLink>
+            <StyledLink to="/blog">ブログ</StyledLink>
           </div>
         </div>
       </Header>
