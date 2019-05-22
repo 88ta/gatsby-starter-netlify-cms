@@ -29,7 +29,7 @@ const H3 = styled.h3`
   margin: 16px 0;
   color: #69A6B8;
   line-height: 32px;
-  text-align: left;
+  text-align: left !important;
 `
 
 const Description = styled.p`

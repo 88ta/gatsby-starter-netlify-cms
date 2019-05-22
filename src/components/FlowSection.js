@@ -17,14 +17,14 @@ const Step = styled.div`
   font-weight: 700;
   line-height: 32px;
   text-align: left;
-  color: #69A6B8;
+  color: rgb(105, 166, 184);
 `
 
 const H3 = styled.h3 `
   width: 256px;
   font-weight: 700;
   line-height: 32px;
-  text-align: left;
+  text-align: left !important;
   color: #69A6B8;
 `
 

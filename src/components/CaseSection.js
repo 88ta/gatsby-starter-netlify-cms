@@ -38,7 +38,7 @@ const Account = styled.p`
 
 const Line = styled.span`
   display: block;
-  margin: 8 0 8 -2;
+  margin: 8px 0 8px -2px;
   width: 284px;
   height: 1px;
   background-color: #5F4B45;

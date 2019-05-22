@@ -14,7 +14,7 @@ const Container = styled.div`
 `
 
 const H3 = styled.h3`
-	margin: 32 0;
+	margin: 32px 0;
 	font-weight: 300;
 	line-height: 32px;
 	color: #5F4B45;

@@ -5,10 +5,6 @@ const Wrapper = styled.div`
 	margin: auto;
 	padding: 64px 0;
 	width: 900px;
-
-  margin-top: 32px;
-  width: inherit;
-  justify-content: space-between;
 `
 
 const Inner = styled.div`
@@ -23,7 +19,7 @@ const Cell = styled.div`
   width: 240px;
 `
 
-const Img = styled.h3`
+const Img = styled.img`
   display: block;
   width: 112px;
   margin: 0 auto;

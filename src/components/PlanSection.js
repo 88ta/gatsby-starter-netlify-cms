@@ -67,7 +67,7 @@ const Ul = styled.ul`
 const Li = styled.li`
   font-size: 14px;
   margin-top: 16px;
-  &before {
+  &:before {
     content: "";
     display: inline-block;
     transform: rotate(45deg);
@@ -87,7 +87,7 @@ const PlanSection = () => (
 			<Plans>
 				<Plan id="cP1">
 					<PlanTitle style={{ backgroundColor: '#C4DD6E' }}>制作/運用プラン</PlanTitle>
-					<MonthlyAmount><span>50</span>万円~/月</MonthlyAmount>
+					<MonthlyAmount style={{ color: '#C4DD6E' }}><span>50</span>万円~/月</MonthlyAmount>
 					<Tax>*税抜価格</Tax>
 					<Description style={{ backgroundColor: '#C4DD6E' }}>商品などの撮影を弊社で行い、写真制作から投稿や企画、レポートすべて運用代行いたします。</Description>
 					<Ul>
@@ -102,7 +102,7 @@ const PlanSection = () => (
 				</Plan>
 				<Plan id="cP2">
 					<PlanTitle style={{ backgroundColor: '#FDDC41' }}>画像選出/運用プラン</PlanTitle>
-					<MonthlyAmount><span>30</span>万円~/月</MonthlyAmount>
+					<MonthlyAmount style={{ color: '#FDDC41' }}><span>30</span>万円~/月</MonthlyAmount>
 					<Tax>*税抜価格</Tax>
 					<Description style={{ backgroundColor: '#FDDC41' }}>Instagram上の投稿写真から選定し、利用許諾を取得した上で投稿や企画、レポートまでを運用代行いたします。</Description>
 					<Ul>
@@ -117,7 +117,7 @@ const PlanSection = () => (
 				</Plan>
 				<Plan id="cP3">
 					<PlanTitle style={{ backgroundColor: '#E390D0' }}>基本運用プラン</PlanTitle>
-					<MonthlyAmount><span>20</span>万円~/月</MonthlyAmount>
+					<MonthlyAmount style={{ color: '#E390D0' }}><span>20</span>万円~/月</MonthlyAmount>
 					<Tax>*税抜価格</Tax>
 					<Description style={{ backgroundColor: '#E390D0' }}>投稿する素材をご用意していただき、投稿文章/ハッシュタグ設計から投稿や企画、レポートまでを運用代行いたします。</Description>
 					<Ul>

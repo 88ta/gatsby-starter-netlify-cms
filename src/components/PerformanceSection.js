@@ -18,10 +18,9 @@ const Per = styled.img`
 `
 
 const Sucle = styled.p`
-  font-size: 16px;
-  text-align: justify;
+  font-size: 36px;
+  font-weight: 700;
   color: #5F4B45;
-  margin: 24px 0;
 `
 
 const Description = styled.p`
@@ -35,7 +34,7 @@ const PerformanceSection = () => (
 		<h2>弊社アカウント実績</h2>
 		<Content>
 			<Per src="/img/per.png"/>
-			<div>
+			<div style={{ width: 300 + 'px' }}>
 				<Sucle>Sucle</Sucle>
 				<Description>弊社が運営する女性向けライフスタイルメディア『Sucle』を成長させる際に培ったノウハウをフル活用します。</Description>
 				<img src="/img/sucleG.png" style={{ width: `${300}px` }}/>
