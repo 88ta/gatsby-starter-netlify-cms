@@ -4,6 +4,7 @@ import Img from 'gatsby-image'
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = { width: `${424}px`, height: `${212}px` }
+  const defaultStyle = { width: `${424}px`, height: `${212}px`, backgroundColor: 'rgb(242, 242, 242)' }
   const { alt = '', childImageSharp, image } = imageInfo
 
   if (!!image && !!image.childImageSharp) {
@@ -19,7 +20,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   if (!!image && typeof image === 'string')
     return <img style={imageStyle} src={image} alt={alt} />
 
-  return null
+  return <div style={defaultStyle} />
 }
 
 PreviewCompatibleImage.propTypes = {
