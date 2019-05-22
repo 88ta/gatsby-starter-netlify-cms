@@ -1,6 +1,11 @@
 var proxy = require('http-proxy-middleware')
 
 module.exports = {
+  siteMetadata: {
+    title: 'Instagram運用代行 - Instagram（インスタグラム）に特化したプロモーション支援のFinT -',
+    description:
+      'Sucleの運営会社FinTは、instagramのフォロワー数・認知度・売上の向上をアカウント運用によってサポートします',
+  },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
