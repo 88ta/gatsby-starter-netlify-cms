@@ -5,37 +5,37 @@ import styled from 'styled-components'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const H2 = styled.h2`
-  font-size: 19px;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: left;
-  color: #000;
+  font-size: 19px !important;
+  font-weight: 700 !important;
+  line-height: 28px !important;
+  text-align: left !important;
+  color: #000 !important;
   &:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
   }
 `
 
 const PublishDate = styled.small`
-  display: block;
-  font-size: 12px;
-  font-weight: 300px;
-  margin: 12px 0 6px;
-  color: #AAA;
+  display: block !important;
+  font-size: 12px !important;
+  font-weight: 300px !important;
+  margin: 12px 0 6px !important;
+  color: #AAA !important;
 `
 
 const Ul = styled.ul `
-  margin: auto;
-  padding: 64px 0;
-  display: flex;
-  flex-wrap: wrap;
-  width: 952px;
+  margin: auto !important;
+  padding: 64px 0 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  width: 952px !important;
 `
 
 const Li = styled.li`
-  width: 424px;
-  margin: 40px 26px 0;
-  list-style: none;
-  justify-content: space-between;
+  width: 424px !important;
+  margin: 40px 26px 0 !important;
+  list-style: none !important;
+  justify-content: space-between !important;
 `
 
 class BlogRoll extends React.Component {
