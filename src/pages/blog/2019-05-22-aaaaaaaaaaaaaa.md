@@ -8,7 +8,7 @@ featuredimage: /img/cS1.png
 ---
 **太文字**
 
-****
+- - -
 
 ## **H2H2H2H2H2H2H2H2H2H2H2H2**
 
@@ -16,7 +16,7 @@ featuredimage: /img/cS1.png
 
 
 
-
+![a](/img/cS3.png "a")
 
 _斜体_
 
