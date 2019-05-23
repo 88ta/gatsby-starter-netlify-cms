@@ -89,6 +89,10 @@ const Wrapper = styled.div`
     max-width: 640px;
     width: 100%;
   }
+  .gatsby-resp-image-wrapper {
+    max-width: 640px !important;
+    width: 100%;
+  }
 `
 
 export const HTMLContent = ({ content, className }) => (
