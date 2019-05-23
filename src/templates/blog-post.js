@@ -33,6 +33,8 @@ const TopContainer = styled.div `
   width: 900px;
 `
 
+const Date = styled.small``
+
 export const BlogPostTemplate = ({
   content,
   contentComponent,
@@ -40,6 +42,7 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  date
 }) => {
   const PostContent = contentComponent || Content
 
@@ -69,6 +72,7 @@ export const BlogPostTemplate = ({
         <meta content="https://fint-instagram.netlify.com/img/ogp.jpg" name="twitter:image"/>
       </Helmet>
       <Container>
+        <Date>{date}</Date>
         <H1>{title}</H1>
         <PostContent content={content} />
       </Container>
@@ -109,6 +113,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        date={post.frontmatter.date}
       />
     </Layout>
   )
@@ -128,7 +133,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY.MM.DD")
         title
         description
         tags

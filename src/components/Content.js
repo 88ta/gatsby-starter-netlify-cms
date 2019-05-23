@@ -31,6 +31,22 @@ const Wrapper = styled.div`
       background-color: #333 !important;
     }
   }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left !important;
+    margin-top: 24px;
+    &:before {
+      content: "";
+      position: relative;
+      display: inline-block;
+      width: 4px;
+      height: 41px;
+      margin-right: 8px;
+      background-color: #333;
+      vertical-align: middle;
+    }
+  }
   img {
     margin-top: 12px !important;
     width: 640px !important;
@@ -42,6 +58,32 @@ const Wrapper = styled.div`
     text-align: left !important;
     line-height: 28px !important;
     color: #333 !important;
+  }
+  strong {
+    font-weight: 700;
+  }
+  em {
+    font-style: italic;
+  }
+  blockquote {
+    &:before {
+      content: "";
+      position: relative;
+      display: inline-block;
+      width: 4px;
+      height: 41px;
+      margin-right: 8px;
+      background-color: #aaa;
+      vertical-align: middle;
+    }
+  }
+  a {
+    text-decoration: underline;
+    color: #333;
+  }
+  img {
+    max-width: 640px;
+    width: 100%;
   }
 `
 
