@@ -66,6 +66,10 @@ const Wrapper = styled.div`
     font-style: italic;
   }
   blockquote {
+    display: flex;
+    p {
+      margin: 0 !important;
+    }
     &:before {
       content: "";
       position: relative;
