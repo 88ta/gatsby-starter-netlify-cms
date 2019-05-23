@@ -6,32 +6,10 @@ description: eeeeeeeeeee
 featuredpost: true
 featuredimage: /img/cS1.png
 ---
-## aaaaaaaa
+**太文字**
 
+_斜体_
 
+> 引用
 
-
-
-![aaaaaa](/img/cS3.png "aaaaaaa")
-
-
-
-aaaaaaaaaaaaaa
-
-
-
-
-
-aaaaaaaaaaaaaaa
-
-
-
-
-
-
-
-> 「ああああああああああ」
-
-1. eeeeee
-2. eeeeee
-3. eeee
+<https://https:/sucle.jp>
